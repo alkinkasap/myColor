@@ -21,6 +21,7 @@ $(document).ready( function() {
 		$(this).prev().css("background-color", newColor);
 	})
 	
+	/*
 	// Add rbg to each div
 	$("div.color").each( function() {
 		// Get colors rgb value
@@ -31,6 +32,7 @@ $(document).ready( function() {
 		
 	});
 	
+	*/
 	
 		
 	
