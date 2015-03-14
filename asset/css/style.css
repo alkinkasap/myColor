@@ -1,0 +1,56 @@
+body {
+	background-color: #d6d6d6;
+}
+
+section {
+	margin: 50px auto auto 50px;
+}
+
+ul.set {
+	width: auto;
+	float: left;
+}
+ul.set li {
+	list-style: none;
+	display: inline-block;
+	margin: 0;
+	width: 100px;
+	border: 1px #444 solid;
+}
+.one {
+	width: 100px;
+	overflow: hidden;
+	float: left;
+}
+
+.color {
+	width: 100px;
+	height: 100px;
+}
+
+input {
+	width: 100px;
+	margin: auto;
+	border: none;
+	border-top: 1px black solid;
+}
+h1 {
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: firebrick;
+	-webkit-transition: all 0.3s ;
+	-moz-transition: all 0.3s ;
+	-ms-transition: all 0.3s ;
+	-o-transition: all 0.3s ;
+	transition: all 0.3s ;
+}
+a:hover {
+	color: forestgreen;
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+	transform: scale(1.1) rotate(360deg);
+}
