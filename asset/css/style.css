@@ -9,6 +9,9 @@ section {
 ul.set {
 	width: auto;
 	float: left;
+	background-color: #0F2C31;
+	padding: 20px;
+	margin: 10px;
 }
 ul.set li {
 	list-style: none;
@@ -39,18 +42,30 @@ h1 {
 }
 a {
 	text-decoration: none;
-	color: firebrick;
-	-webkit-transition: all 0.3s ;
-	-moz-transition: all 0.3s ;
-	-ms-transition: all 0.3s ;
-	-o-transition: all 0.3s ;
-	transition: all 0.3s ;
+	color: #E94962;
+	-webkit-transition: all 0.2s ;
+	-moz-transition: all 0.2s ;
+	-ms-transition: all 0.2s ;
+	-o-transition: all 0.2s ;
+	transition: all 0.2s ;
 }
 a:hover {
-	color: forestgreen;
+	color: #56B9EE;
 	-webkit-transform: scale(1.1) rotate(360deg);
 	-moz-transform: scale(1.1) rotate(360deg);
 	-ms-transform: scale(1.1) rotate(360deg);
 	-o-transform: scale(1.1) rotate(360deg);
 	transform: scale(1.1) rotate(360deg);
+}
+
+nav {
+	padding: 20px 40px;
+	background-color: #0F2C31;
+	color: #E3E1D5;
+}
+nav a {
+	color: #9C8B8F;
+}
+nav a:hover {
+	color: #E94962;	
 }
