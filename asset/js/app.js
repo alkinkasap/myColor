@@ -13,9 +13,9 @@ $(document).ready( function() {
 		$(this).css("background-color", color);
 	});
 	
-	// If change hex code
+	// If hex code changes
 	$("input").change(function () {
-		// Get new value on input
+		// Get new value from input
 		var newColor = $(this).val();
 		// Change div's background-color to new value on input
 		$(this).prev().css("background-color", newColor);
@@ -38,7 +38,10 @@ $(document).ready( function() {
 	
 	// Target _blank option for each anchor
 	$("a").each( function() {
-		$(this).attr("target", "blank");
+		$(this).attr({
+			target: "blank",
+			rel: "nofollow"
+		});
 	});
 });
 
