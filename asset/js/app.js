@@ -36,8 +36,8 @@ $(document).ready( function() {
 	
 		
 	
-	// Target _blank option for each anchor
-	$("a").each( function() {
+	// Target _blank and nofollo option for each outgoing links
+	$("h1 a").each( function() {
 		$(this).attr({
 			target: "blank",
 			rel: "nofollow"
