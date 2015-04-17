@@ -3,7 +3,8 @@ body {
 }
 
 section {
-	margin: 50px auto auto 50px;
+	margin: 50px auto ;
+	width: 94%;
 }
 
 ul.set {
@@ -30,6 +31,9 @@ ul.set li {
 	width: 100px;
 	height: 100px;
 }
+.color:hover{
+	cursor: pointer;
+}
 
 input {
 	width: 100px;
@@ -51,11 +55,43 @@ a {
 }
 a:hover {
 	color: #56B9EE;
-	-webkit-transform: scale(1.1) rotate(360deg);
-	-moz-transform: scale(1.1) rotate(360deg);
-	-ms-transform: scale(1.1) rotate(360deg);
-	-o-transform: scale(1.1) rotate(360deg);
-	transform: scale(1.1) rotate(360deg);
+    -webkit-animation: anchorhover .2s;
+    -moz-animation: anchorhover .2s;    
+	-ms-animation: anchorhover .2s;
+    -o-animation: anchorhover .2s;
+    animation: anchorhover .2s;
+}
+
+@keyframes anchorhover {
+	100% {transform:  rotate(0deg);}
+	25% {transform:  rotate(5deg);}
+	75% {transform:  rotate(-5deg);}
+	0% {transform:  rotate(0deg);}	
+	
+}
+@-webkit-keyframes anchorhover {
+	100% {transform:  rotate(0deg);}
+	25% {transform:  rotate(5deg);}
+	75% {transform:  rotate(-5deg);}
+	0% {transform:  rotate(0deg);}	
+}
+@-moz-keyframes anchorhover {
+	100% {transform:  rotate(0deg);}
+	25% {transform:  rotate(5deg);}
+	75% {transform:  rotate(-5deg);}
+	0% {transform:  rotate(0deg);}	
+}
+@-ms-keyframes anchorhover {
+	100% {transform:  rotate(0deg);}
+	25% {transform:  rotate(5deg);}
+	75% {transform:  rotate(-5deg);}
+	0% {transform:  rotate(0deg);}	
+}
+@-o-keyframes anchorhover {
+	100% {transform:  rotate(0deg);}
+	25% {transform:  rotate(5deg);}
+	75% {transform:  rotate(-5deg);}
+	0% {transform:  rotate(0deg);}	
 }
 
 nav {
@@ -68,4 +104,7 @@ nav a {
 }
 nav a:hover {
 	color: #E94962;	
+}
+.right {
+	float: right;
 }

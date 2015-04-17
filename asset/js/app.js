@@ -13,7 +13,7 @@ $(document).ready( function() {
 		$(this).css("background-color", color);
 	});
 	
-	// If hex code changes
+	//* If hex code changes
 	$("input").change(function () {
 		// Get new value from input
 		var newColor = $(this).val();
@@ -31,18 +31,7 @@ $(document).ready( function() {
 		$(this).append(parag);
 		
 	});
-	
 	*/
-	
-		
-	
-	// Target _blank and nofollo option for each outgoing links
-	$("h1 a").each( function() {
-		$(this).attr({
-			target: "blank",
-			rel: "nofollow"
-		});
-	});
 });
 
 
