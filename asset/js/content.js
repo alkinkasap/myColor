@@ -48,6 +48,10 @@ $(function () {
 				"colorLink": "https://dribbble.com/shots/2359190-Dribbble-Invite-illustrations",
 				"colorTitle": "Sweet Colors",
 				"colorHex": ["E34C86", "478BEF", "4A45AB"]
+			},{
+				"colorLink": "http://www.colourlovers.com/palette/3961939/deep_fried_frog_legs",
+				"colorTitle": "Deep Fried Frog Legs",
+				"colorHex": ["AB6948", "8AA836", "B5BD44", "59B37B", "436F91"]
 			}
 		],
 	};
