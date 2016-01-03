@@ -33,9 +33,9 @@ $(function () {
 				"colorTitle": "Best of Flat-UI",
 				"colorHex": ["2c3e50", "bdc3c7", "d35400", "c0392b", "8e44ad", "2980b9"]
 			},{
-				"colorLink": "https://dribbble.com/shots/1697905-Blog-and-form",
-				"colorTitle": "BlognForm",
-				"colorHex": ["F8F8F8", "575757", "C6B2B7", "B26357", "BB8479"]
+				"colorLink": "http://www.colourlovers.com/palette/3961939/deep_fried_frog_legs",
+				"colorTitle": "Deep Fried Frog Legs",
+				"colorHex": ["AB6948", "8AA836", "B5BD44", "59B37B", "436F91"]
 			},{
 				"colorLink": "https://dribbble.com/shots/2012807-Parallelogram",
 				"colorTitle": "Parallelogram",
@@ -45,13 +45,17 @@ $(function () {
 				"colorTitle": "TheNewsletterTemplate",
 				"colorHex": ["2F1915", "F05945", "8ACEC8", "F3EFE5"]
 			},{
+				"colorLink": "https://dribbble.com/shots/1697905-Blog-and-form",
+				"colorTitle": "BlognForm",
+				"colorHex": ["F8F8F8", "575757", "C6B2B7", "B26357", "BB8479"]
+			},{
 				"colorLink": "https://dribbble.com/shots/2359190-Dribbble-Invite-illustrations",
 				"colorTitle": "Sweet Colors",
 				"colorHex": ["E34C86", "478BEF", "4A45AB"]
 			},{
-				"colorLink": "http://www.colourlovers.com/palette/3961939/deep_fried_frog_legs",
-				"colorTitle": "Deep Fried Frog Legs",
-				"colorHex": ["AB6948", "8AA836", "B5BD44", "59B37B", "436F91"]
+				"colorLink": "http://www.colorhunt.co/c/2763",
+				"colorTitle": "For The Night is *",
+				"colorHex": ["222831", "393E46", "00ADB5", "EEEEEE"]
 			}
 		],
 	};
