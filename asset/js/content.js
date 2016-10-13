@@ -56,6 +56,14 @@ $(function () {
 				"colorLink": "http://www.colorhunt.co/c/2763",
 				"colorTitle": "For The Night is *",
 				"colorHex": ["222831", "393E46", "00ADB5", "EEEEEE"]
+			},{
+				"colorLink": "https://material.google.com/style/color.html#color-color-palette",
+				"colorTitle": "Full Material Jacket 1 *",
+				"colorHex": ["F44336", "E91E63", "9C27B0", "673AB7", "3F51B5", "2196F3", "03A9F4", "00BCD4", "009688", "4CAF50"]
+			},{
+				"colorLink": "https://material.google.com/style/color.html#color-color-palette",
+				"colorTitle": "Full Material Jacket 2",
+				"colorHex": ["8BC34A", "CDDC39", "FFEB3B", "FFC107", "FF9800", "FF5722", "795548", "9E9E9E", "607D8B", "000000"]
 			}
 		],
 	};
