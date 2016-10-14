@@ -64,9 +64,14 @@ $(function () {
 				"colorLink": "https://material.google.com/style/color.html#color-color-palette",
 				"colorTitle": "Full Material Jacket 2",
 				"colorHex": ["8BC34A", "CDDC39", "FFEB3B", "FFC107", "FF9800", "FF5722", "795548", "9E9E9E", "607D8B", "000000"]
+			},{
+				"colorLink": "http://bestwebdesingtools.com",
+				"colorTitle": "Pastel Pens",
+				"colorHex": ["f88aaf", "FF9800", "54a992", "d94c3a", "455655"]
 			}
 		],
 	};
+
 
 	// Pass our data to the template
 	var theCompiledHtml = theTemplate(context);
