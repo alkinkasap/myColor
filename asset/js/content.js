@@ -68,6 +68,10 @@ $(function () {
 				"colorLink": "http://bestwebdesingtools.com",
 				"colorTitle": "Pastel Pens",
 				"colorHex": ["f88aaf", "FF9800", "54a992", "d94c3a", "455655"]
+			},{
+				"colorLink": "https://dribbble.com/shots/5286795-Landing-Clothing-Sable",
+				"colorTitle": "Clothing Sable",
+				"colorHex": ["090B10", "8B93AC", "554852", "BD152C", "D5DAE5"]
 			}
 		],
 	};
