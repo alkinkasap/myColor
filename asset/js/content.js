@@ -72,6 +72,10 @@ $(function () {
 				"colorLink": "https://dribbble.com/shots/5286795-Landing-Clothing-Sable",
 				"colorTitle": "Clothing Sable",
 				"colorHex": ["090B10", "8B93AC", "554852", "BD152C", "D5DAE5"]
+			},{
+				"colorLink": "https://www.behance.net/gallery/52743865/Brothers-Killombo",
+				"colorTitle": "Brothers Killombo",
+				"colorHex": ["16212F", "4C382D", "2A2A2A"]
 			}
 		],
 	};
